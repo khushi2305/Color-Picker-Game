@@ -1,0 +1,72 @@
+ body{
+ 	background:#232323;
+ 
+ }
+ .jumbotron p{
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	margin: 0px;
+    margin-block-start : 0px;
+    margin-block-end:0px;
+
+}
+.heading{
+	background:#688eba;
+	margin-bottom: 0px;
+	color:white;
+}
+#mainhead{
+	font-size: 70px;
+	font-weight: bold;
+	padding-top: 0px;
+}
+.r1{
+	background:white;
+	height:20px;
+	margin-bottom: 20px;
+}	
+
+.c1{ 
+	width:40% ;
+	margin-bottom: 30px;
+	font-weight: bold;
+	color:#688eba;
+	font-size:inherit;
+	text-transform: uppercase ;
+}
+.jumbotron{
+	padding: 10px;
+}
+.square{
+	height:130px;
+	width:31%;
+	background:white;
+	margin: 1%;
+	border-radius:20%;
+	transition: background 0.5s;
+	/* since transition is not supported by all browsers we need to make it browser friendly by adding following statements */
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+.click{
+	background:steelblue;
+	color:white;
+}
+#easy:hover{
+background:steelblue;
+color:white;
+}
+#hard:hover{
+background:steelblue;
+color:white;
+}
+
+#playagain:hover{
+background:steelblue;
+color:white;
+}
+
+.c1 .row{
+  margin:0 auto ;
+}
