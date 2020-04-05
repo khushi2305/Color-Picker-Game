@@ -1,26 +1,33 @@
- body{
+  body{
  	background:#232323;
  
  }
+ .jumbotron{
+	padding: 10px;
+}
  .jumbotron p{
 	font-size: 20px;
 	font-weight: 600;
 	text-align: center;
 	margin: 0px;
-    margin-block-start : 0px;
-    margin-block-end:0px;
+   /* margin-block-start : 0px;
+    margin-block-end:0px;*/     /*This is creating no effect */
 
 }
+
 .heading{
+
 	background:#688eba;
 	margin-bottom: 0px;
 	color:white;
 }
+
 #mainhead{
 	font-size: 70px;
 	font-weight: bold;
-	padding-top: 0px;
+	/*padding-top: 0px;*/
 }
+
 .r1{
 	background:white;
 	height:20px;
@@ -29,19 +36,17 @@
 
 .c1{ 
 	width:40% ;
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 	font-weight: bold;
 	color:#688eba;
 	font-size:inherit;
 	text-transform: uppercase ;
 }
-.jumbotron{
-	padding: 10px;
-}
+
 .square{
 	height:130px;
 	width:31%;
-	background:white;
+	/*background:white;*/
 	margin: 1%;
 	border-radius:20%;
 	transition: background 0.5s;
@@ -49,20 +54,9 @@
 	-webkit-transition: background 0.5s;
 	-moz-transition: background 0.5s;
 }
-.click{
-	background:steelblue;
-	color:white;
-}
-#easy:hover{
-background:steelblue;
-color:white;
-}
-#hard:hover{
-background:steelblue;
-color:white;
-}
 
-#playagain:hover{
+
+#easy:hover,#hard:hover,#playagain:hover,.click {
 background:steelblue;
 color:white;
 }
@@ -70,3 +64,6 @@ color:white;
 .c1 .row{
   margin:0 auto ;
 }
+/*
+difference between inline , inline-block , block 
+https://www.w3schools.com/css/css_inline-block.asp*/
